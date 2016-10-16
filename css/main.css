@@ -1,0 +1,703 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  color: #fff;
+}
+
+
+.btn {
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-size: 20px;
+  padding: 9px 23px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: url("icon.png"), default;
+}
+
+h2 {
+  font-size: 36px
+}
+
+.navbar-toggle {
+  margin-top: 12px
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-toggle, 
+.navbar-toggle:focus {
+  border:1px solid #fff;
+  outline: none;
+}
+
+
+/*************************
+*******Header CSS******
+**************************/
+
+.header-top {
+  display: block;
+  overflow: hidden;
+  padding: 25px;
+}
+
+.main-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.main-nav 
+.container {
+  width: 100%
+}
+
+.social-icons a {
+  font-size: 18px;
+  color: #fff;
+  padding-left:20px;  
+}
+
+.social-icons .fa-facebook:hover {
+  color: #3B5997
+}
+
+.social-icons .fa-twitter:hover {
+  color:#29C5F6
+}
+
+.social-icons .fa-google-plus:hover {
+  color:#D13D2F
+}
+
+.social-icons .fa-youtube:hover{
+  color: #ec5538
+}
+
+.navbar-brand {
+  background-color: #bb1e17;
+  height: 90px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 297px;
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: -35px;
+}
+
+.navbar-right {
+  background-color: #bb1e17;
+  padding:0 95px 0 0;
+  opacity: .8
+}
+
+.navbar-right li a {
+  padding: 35px 21px;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+}
+
+.navbar-right li a:hover, 
+.navbar-right li a:focus,  
+.navbar-right .active a {
+  background-color: #fff;
+  color: #383c3d
+}
+
+
+.fixed-menu {
+  background-color: #bb1e17;
+  position: fixed;
+  top: 0;
+}
+
+.fixed-menu .navbar-right {
+  padding: 0;
+}
+
+
+.fixed-menu .navbar-right li a {
+  font-size: 18px;
+  padding: 20px 25px;
+  text-shadow:inherit;
+}
+
+.fixed-menu .navbar-brand {
+  height: 60px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+  width: 125px;
+}
+
+.fixed-menu .navbar-brand img {
+  height:60px;
+  top: 0;
+}
+
+.fixed-menu .header-top {
+  display: none;
+}
+
+
+
+/*************************
+*******Home CSS******
+**************************/
+
+#home {
+  position: relative;
+  overflow: hidden;
+}
+
+#main-slider img {
+  width: 100%
+}
+
+#main-slider 
+.carousel-caption {
+  background: none repeat scroll 0 0 #000000;
+  bottom: 14%;
+  float: left;
+  left: 0;
+  opacity: 0.8;
+  padding:10px 60px 35px;
+  right: inherit;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+
+#main-slider 
+.carousel-caption h2 {  
+  font-size: 38px;
+ 
+}
+
+#main-slider 
+.carousel-caption h4 {
+  font-size: 24px;
+}
+
+#main-slider 
+.carousel-caption a {
+  font-size: 22px;
+  color: #2da1c5
+}
+
+#main-slider 
+.carousel-caption a:hover {
+  color: #2588a6
+}
+
+#main-slider 
+.carousel-caption a:hover i {
+  margin-left: 35px
+}
+
+#main-slider 
+.carousel-caption a i {
+  margin-left: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-slider 
+.carousel-indicators li {
+  background-color:#ca4242;
+  border: 1px solid #ca4242;
+}
+
+#main-slider 
+.carousel-indicators li.active {
+  background-color:#fff;
+  border: 1px solid #fff;
+}
+
+
+/*************************
+*******About CSS**********
+**************************/
+
+#about {
+  background-color: #c71f17;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+
+.sae_logo {
+  top: 0;
+}
+
+.sae_logo img {
+  padding: 5%;
+  float: left;
+  padding-top: -20px;
+}
+
+.about-content {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+  padding-left: -10px;
+  padding-right: 5%;
+}
+
+#about h2 {
+  margin-bottom: 23px;
+}
+
+.about-content p {
+  font-size: 17px;
+  font-family: 'Dosis',sans-serif;
+}
+.baja_logo {
+  padding: -20px;
+  top: 0;
+}
+
+.baja_logo img {
+  float: right;
+}
+.baja_logo p {
+  padding-left: 5%;
+}
+.baja_logo h2 {
+  padding-left: 5%;
+}
+.button{
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5%;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+ /*************************
+*******Event CSS******
+**************************/
+#event {
+  background-image: url("../images/performar-bg.jpg");
+  background-position: relative;
+  position: relative;
+  background-repeat: repeat;
+  padding-top: 50px;
+}
+
+.eve{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#event-carousel {
+  position: relative;
+}
+
+.even-control-left, 
+.even-control-right {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  top: 0;
+}
+
+.even-control-left {
+  right: 3%
+} 
+
+.even-control-right {
+  right: 0;
+}
+#event .col-sm-4 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+#event .col-sm-6 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+#event .team-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+#event .team-des {
+  background-color: rgba(00,00,00,0.6);
+  position: absolute;
+  color: #ffffff;
+  opacity: 0;
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.4s ease-in-out;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#event .team-des:hover {
+ opacity: 0.8;
+ height: 96.5%;
+}
+#event img {
+  margin: 0 auto;
+}
+
+.test{
+ padding-bottom: 15px; 
+ }
+ .test1{
+ padding-bottom: 20px; 
+ padding-top: 45px;
+ }
+/*************************
+*******Gallery CSS**********
+**************************/
+
+#gallery {
+  background-image: url("../images/gallery-bg.jpg");
+  background-position: 50% 0;
+  position: relative;
+  background-repeat: repeat;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+#gallery .team-des {
+  background-color: rgba(00,00,00,0.6);
+  position: absolute;
+  color: #ffffff;
+  opacity: 0;
+  max-width: 500px;
+}
+#gallery img{
+  margin: 0 auto;
+}
+/*************************
+*******Team CSS**********
+**************************/
+
+#team {
+  background-image: url("../images/team-bg.jpg");
+  background-position: 50% 0;
+  background-size: contain;
+  position: relative;
+  background-repeat: repeat;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+#team .col-lg-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#team-carousel {
+  position: relative;
+}
+
+.team-control-left, 
+.team-control-right {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  top: 0;
+}
+
+.team-control-left {
+  right: 3%
+} 
+
+.team-control-right {
+  right: 0;
+}
+
+/*************************
+******Sponsor CSS****
+**************************/
+
+#sponsor {
+  background-color: #1881a2;
+  background-image: url("../images/sponsor-bg.jpg");
+  /*background-position:;*/
+  background-size: cover;
+  background-repeat:repeat;
+  /*position: relative;*/
+}
+
+.light {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#sponsor .col-sm-10 {
+  z-index: 10;
+}
+
+#sponsor h2 {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+#sponsor .item ul {
+  font-size: 0;
+  padding: 0;
+}
+
+
+#sponsor .item ul li {
+  display: inline-block;
+  list-style: none;
+  width: 15%;
+  margin-bottom: 75px;
+}
+
+#sponsor .item ul li:last-child {
+  margin-right: 0
+}
+.btn{
+  position:relative; 
+  margin-bottom:45px; 
+  margin-left: 40%;
+}
+#sponsor .button{
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover{
+  color: #000000;
+}
+/*
+.sponsor-control-left, 
+.sponsor-control-right {
+  color: #FFFFFF;
+  font-size: 24px;
+  position: absolute;
+  top: 20%;
+}
+
+.sponsor-control-left {
+  right: 12%
+}
+
+.sponsor-control-right {
+  right: 10%
+}*/
+
+/*************************
+******Contact CSS****
+**************************/
+
+.contact-section {
+  background-image: url("../images/contact-bg.jpg");
+  background-position: absolute;
+  background-size: 100%;
+  background-repeat:no-repeat;  
+  position: relative;
+  background-color: white;
+  opacity: 0.9;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+#contact-section h2 {  
+  font-style: bold;
+}
+
+.contact-text {
+  margin-bottom: 35px;
+  margin-left: 20px;
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+
+.group        { 
+  position:relative; 
+  margin-bottom:45px; 
+  margin-left: 50%;
+}
+input         {
+  font-color:black; 
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus     { outline:none; }
+
+/* LABEL ======================================= */
+label          {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label    {
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:300px; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:27.59px; 
+  width:50px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+
+}
+input:focus ~ .btn-primary {
+  background: #0067ef;
+  border: 3px solid;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  height: 30px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+input:focus ~ .btn-primary:hover {
+  color: #000000;
+
+}
+/*************************
+******Footer CSS****
+**************************/
+
+#footer {
+  background-image: url("../images/1.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 35px 0;
+}
